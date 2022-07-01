@@ -16,7 +16,7 @@ $this->title = 'Yii Blog';
     </div>
 </div>-->
 <?php if (!Yii::$app->user->isGuest): ?>
-    <h4>Abonelikler</h4>
+    <h4 class="mt-2">Abonelikler</h4>
     <hr>
     <div class="row">
         <div class="col-md-3 mt-3"  onclick="window.location = '/dsadsa'">
@@ -192,7 +192,7 @@ $this->title = 'Yii Blog';
         </div>
     </div>
 <?php endif; ?>
-<h4 class="mt-1">Önerilenler</h4>
+<h4 class="mt-2">Önerilenler</h4>
 <hr>
 <div class="row">
     <div class="col-md-3 mt-3"  onclick="window.location = '/dsadsa'">
